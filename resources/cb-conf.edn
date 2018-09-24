@@ -1,0 +1,4 @@
+#:com.doubleelbow.capital.interceptor.impl.alpha.circuit-breaker{:threshold 10
+                                                                 :interval 300
+                                                                 :min-requests 50
+                                                                 :open-duration 150}

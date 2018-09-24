@@ -1,0 +1,2 @@
+#:com.doubleelbow.capital.interceptor.impl.alpha.retry{:delay [1000 2000]
+                                                       :max-retries 1}

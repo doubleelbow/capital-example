@@ -1,0 +1,22 @@
+.service {
+    display: block;
+    float: left;
+    width: 300px;
+    margin: 10px;
+}
+
+.service .stat .name {
+    margin-right: 5px;
+    display: block;
+    float: left;
+    width: 130px;
+    text-align: right;
+}
+
+.simulation {
+    clear: both;
+}
+
+.simulation .line {
+    margin-top: 10px;
+}

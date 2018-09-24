@@ -1,0 +1,32 @@
+[{:name "serviceA"
+  :url "https://service-a.local/"
+  :instructions {200 0.94
+                 404 0.02
+                 429 0.01
+                 500 0.01
+                 503 0.01}
+  :circuit-breaker-config "cb-conf.edn"
+  :retry-config "retry-conf.edn"}
+ {:name "serviceB"
+  :url "https://service-b.local/"
+  :instructions {200 0.78
+                 404 0.02
+                 429 0.05
+                 500 0.05
+                 503 0.05}
+  :circuit-breaker-config "cb-conf.edn"
+  :retry-config "retry-conf.edn"}
+ {:name "serviceC"
+  :url "https://service-c.local/"
+  :instructions {200 0.38
+                 404 0.02
+                 429 0.15
+                 500 0.15
+                 503 0.15}
+  :circuit-breaker-config "cb-conf.edn"
+  :retry-config "retry-conf.edn"}
+ {:name "serviceD"
+  :url "https://service-d.local/"
+  :instructions {200 0.5}
+  :circuit-breaker-config "cb-conf.edn"
+  :retry-config "retry-conf.edn"}]
